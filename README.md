@@ -14,7 +14,6 @@ Deploy a FastAPI app on Kubernetes using Minikube and configure **Horizontal Pod
 
 ### 1. Start Minikube and Set Docker Env
 
-```bash
 minikube start
 minikube -p minikube docker-env | Invoke-Expression  # (for PowerShell)
 2. Build Docker Image inside Minikube
