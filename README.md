@@ -1,4 +1,4 @@
-# 🚀 Kubernetes Pod Autoscaling: FastAPI + Horizontal Pod Autoscaler (HPA)
+#  Kubernetes Pod Autoscaling: FastAPI + Horizontal Pod Autoscaler (HPA)
 
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.20%2B-326CE5.svg?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Minikube](https://img.shields.io/badge/Minikube-1.25%2B-blue.svg?logo=kubernetes&logoColor=white)](https://minikube.sigs.k8s.io/docs/)
@@ -12,7 +12,7 @@ We'll use a lightweight **FastAPI** application that simulates CPU load, deploye
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The primary goal of this project is to:
 
@@ -21,7 +21,7 @@ The primary goal of this project is to:
 
 ---
 
-## 💡 How Horizontal Pod Autoscaling (HPA) Works
+##  How Horizontal Pod Autoscaling (HPA) Works
 
 HPA in Kubernetes automatically adjusts the number of pod replicas in a Deployment or ReplicaSet based on observed CPU utilization (or other select metrics).
 
@@ -36,7 +36,7 @@ This project specifically targets **CPU-based autoscaling**, where our FastAPI a
 
 ---
 
-## 🛠 Setup & Run Instructions
+##  Setup & Run Instructions
 
 Follow these steps to deploy the application, configure HPA, and observe autoscaling.
 
@@ -92,7 +92,7 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## 🚀 Run the Application & Trigger Autoscaling
+##  Run the Application & Trigger Autoscaling
 
 1.  **Get the Service URL:**
     Find out the URL through which you can access your FastAPI application deployed in Minikube.
@@ -134,7 +134,7 @@ Before you begin, ensure you have the following installed:
 
 ---
 
-## 📦 Folder Structure
+##  Folder Structure
 
 k8s-autoscale-project/
 ├── app/                        # Contains the FastAPI application and its Dockerfile
@@ -150,7 +150,7 @@ k8s-autoscale-project/
 
 ---
 
-## ✅ Features Demonstrated
+##  Features Demonstrated
 
 This project effectively showcases several key Kubernetes and cloud-native concepts:
 
@@ -163,13 +163,13 @@ This project effectively showcases several key Kubernetes and cloud-native conce
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
