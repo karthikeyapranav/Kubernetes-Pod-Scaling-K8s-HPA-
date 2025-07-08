@@ -1,12 +1,12 @@
-# 💡 Summary: Kubernetes Horizontal Pod Autoscaler (HPA) Project
+#  Summary: Kubernetes Horizontal Pod Autoscaler (HPA) Project
 
-## 🎯 Project Goal
+##  Project Goal
 
 The core objective of this project was to provide a clear, hands-on demonstration of **Kubernetes Horizontal Pod Autoscaling (HPA)**. We achieved this by deploying a CPU-intensive FastAPI application on a local Minikube cluster and configuring it to automatically scale its pods based on CPU utilization.
 
 ---
 
-## 🧠 How the System Works (Under the Hood)
+##  How the System Works (Under the Hood)
 
 This section breaks down the role of each component and how they interact to achieve dynamic scaling:
 
@@ -46,7 +46,7 @@ This section breaks down the role of each component and how they interact to ach
 
 ---
 
-## ⚙️ Why This Project Matters (Real-World Impact)
+##  Why This Project Matters (Real-World Impact)
 
 This project isn't just a theoretical exercise; it demonstrates fundamental principles vital for building resilient and efficient cloud-native applications:
 
@@ -57,7 +57,7 @@ This project isn't just a theoretical exercise; it demonstrates fundamental prin
 
 ---
 
-## 🧪 Key Observations During Execution
+##  Key Observations During Execution
 
 During the execution of this project, specific observations highlight the effectiveness of HPA:
 
@@ -67,7 +67,7 @@ During the execution of this project, specific observations highlight the effect
 
 ---
 
-## 🔚 Conclusion
+##  Conclusion
 
 This project successfully demonstrated:
 
