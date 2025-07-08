@@ -175,7 +175,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 * The Kubernetes and Minikube communities for robust container orchestration tools.
 * The FastAPI team for an excellent web framework.
